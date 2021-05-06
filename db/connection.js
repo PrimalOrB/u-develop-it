@@ -4,7 +4,7 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: '',
+        password: '', // remove for github pushing
         database: 'election',
     },
     console.log( 'Connected to the election database' )
